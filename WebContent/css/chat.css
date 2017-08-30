@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Microsoft Yahei;
+}
+
+body{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.img1{
+    width: 100%;
+    height: 460px;
+    background: url("../imgs/c.jpg") repeat;
+}
+a,.logo a,.link_person a{
+    text-decoration: none;
+    color: darkgreen;
+}
+.logo{
+    width: 300px;
+    height: 60px;
+    position: absolute;
+    left: 9%;
+    top: 10px;
+    background: white;
+    opacity: 0.5;
+    text-align: center;
+    line-height: 200%;
+    font-size: 26px;
+    border-radius: 5px;
+}
+
+.link_person{
+    width: 80px;
+    height: 25px;
+    background: white;
+    border-radius: 5px;
+    opacity: 0.7;
+    color: darkgreen;
+    text-align: center;
+    line-height: 150%;
+    position: absolute;
+    right: 9%;
+    top: 30px;  
+}
+
+.link_person:hover{
+    margin-top: -8px;
+}
+
+.article{
+    position: relative;
+}
+
+.img2{
+    width: 1100px;
+    height: 450px;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    margin-left: -550px;
+}
+
+.img3{
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 130px;
+    margin-left: -400px;
+    opacity: 0.75;
+}
+
+.introduce{
+    width: 460px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 320px;
+    margin-left: -230px;
+    line-height: 200%;
+    letter-spacing: 3px;
+    color: #336600;
+    font-size: 24px;
+}
+
+.problums{
+    width: 1098px;
+    height: 1200px;
+    position: absolute;
+    left: 50%;
+    top: 530px;
+    margin-left: -550px;
+    border: 1px solid darkgreen;
+}
+
+.frame1{
+    width: 1098px;
+    height: 350px;
+    position: absolute;
+    top: 0px;
+    border: 1px solid #C9C9C9;
+}
+
+.frame2{
+    width: 1098px;
+    height: 350px;
+    position: absolute;
+    top: 360px;
+    border: 1px solid #C9C9C9;
+}
+
+/*======================头像================*/
+.com_head1,.com_head2{
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    border: 1px solid #c9c9c9;
+    position: absolute;
+    top: 20px;
+    left: 30px; 
+}
+
+.name1{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    left: 25px;
+    top: 120px;
+    color: green;
+    font-family: "方正静蕾简体";
+    font-size: 20px;
+}
+
+
+/*=====================问题标题==================*/
+.frame_1{
+    width: 70px;
+    height: 30px;
+    border-radius: 10px; 
+    border: 1px solid #c9c9c9; 
+    font-size: 18px;
+    text-align: center;
+    line-height: 150%;
+    color: #66CC00;
+    box-shadow: 1px 1px 1px grey;
+}
+
+.frame_1{
+    position: absolute;
+    left: 180px;
+    top: 25px;
+}
+
+/*===================问题-题目=========================*/
+.problum_1{
+    width: 800px;
+    height: 120px;
+    position: absolute;
+    left: 180px;
+    top: 65px;
+    color: grey;
+    font-family: "幼圆";
+    font-size: 16px;
+}
+
+/*=====================学生-老师评论区======================*/
+
+.comment_stu1,.comment_tea1,.comment_stu2,.comment_tea2{
+    width: 800px;
+    height: 35px;
+    border: 1px solid #c9c9c9;
+    text-align: left;
+    line-height: 190%;
+    font-size: 16px;
+    color: grey;
+    font-family: "幼圆";
+}
+
+.comment_stu1,.comment_stu2{
+    position: absolute;
+    left: 180px;
+    top: 160px;
+}
+
+.comment_tea1,.comment_tea2{
+    position: absolute;
+    left: 180px;
+    top: 220px;
+}
+
+.submit_stu1,.submit_tea1,.submit_stu2,.submit_tea2{
+    width: 60px;
+    height: 37px;
+    line-height: 190%;
+    text-align: center;
+    background: #c9c9c9;
+    border: 1px solid #c9c9c9;
+    cursor: pointer;
+}
+
+.submit_stu1,.submit_stu2{
+    position: absolute;
+    left: 980px;
+    top: 160px;
+}
+
+.submit_tea1,.submit_tea2{
+    position: absolute;
+    left: 980px;
+    top: 220px;
+}
+
+/*----------------------------------------*/
+
+.frame3{
+    width: 1098px;
+    height: 360px;
+    position: absolute;
+    bottom: 0px;
+    border: 1px solid #C9C9C9;
+}
+
+.com_head3{
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    position: absolute;
+    left: 30px;
+    top: 60px;
+}
+
+.name3{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-family: "方正静蕾简体";
+    font-size: 20px;
+    color: green;
+    position: absolute;
+    left: 20px;
+    top: 160px;
+}
+
+.frame_3{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    left: 180px;
+    top: 20px;
+    font-size: 24px;
+    font-family: "方正静蕾简体";
+    color: darkgreen;
+}
+
+.problum_sub{
+    width: 800px;
+    height: 160px;
+    position: absolute;
+    left: 180px;
+    top: 60px;
+    border: 1px solid green;
+}
+
+.sub{
+    width: 80px;
+    height: 35px;
+    font-size: 18px;
+    font-family: "幼圆";
+    position: absolute;
+    left: 900px;
+    top: 240px;
+    box-shadow: 1px 1px 1px grey;
+}
+
+/*===================提交成功提示栏=========================*/
+
+.fix_confirm{
+    width: 500px;
+    height: 250px;
+    position: fixed;
+    left: 400px;
+    top: 200px;
+    background: white;
+    opacity: 0.9;
+    border: 1px solid grey;
+    display: none;
+}
+
+.fix_confirm1{
+    width: 500px;
+    height: 250px;
+    position: fixed;
+    left: 400px;
+    top: 200px;
+    background: white;
+    opacity: 0.9;
+    border: 1px solid grey;
+    display: none;
+}
+
+.close, .close1{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 125%;
+    background: #c9c9c9;
+    float: right;
+    cursor: pointer;
+}
+
+.system_message1{
+    width:200px;
+    height: 40px;
+    text-indent: 20px;
+    line-height: 200%;
+    font-size: 20px;
+    cursor: crosshair;
+}
+
+.system_message2{
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    line-height: 800%;
+}
+
+.confirm, .confirm1{
+    width: 60px;
+    height: 30px;
+    font-size: 18px;
+    font-family: "幼圆";
+    position: absolute;
+    left: 380px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px grey;
+}
+
+/*===================我已问过的问题==============*/
+
+.prob{
+    color: green;
+    font-weight: 300;
+    font-size: 22px;
+    /*font-family: "方正静蕾简体";*/
+    position: absolute;
+    left: 823px;
+    top: 285px;
+}
+
+
+.footer{
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    top: 1732px;
+    background: #f3f5f7;
+}
+.back{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	right: 1%;
+	margin-top: -25px;
+	border-radius: 25px;
+}
+.f1{
+	width: 136px;
+	position: absolute;
+	top: 35px;
+	left: 50%;
+	margin-left: -68px;
+	cursor: pointer;
+}
+.f1 a:HOVER{
+	color: red;
+}
+.f2{
+	width: 240px;
+	position: absolute;
+	top: 65px;
+	left: 50%;
+	margin-left: -120px;
+}

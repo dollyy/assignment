@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Microsoft Yahei;
+}
+.bg{
+    width: 100%;
+    height: 400px;
+    background: url("../imgs/bg.jpg");
+}
+.logo a,.link_person a{
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.logo{
+    width: 300px;
+    height: 60px;
+    position: absolute;
+    left: 9%;
+    top: 10px;
+    background: white;
+    opacity: 0.5;
+    text-align: center;
+    line-height: 200%;
+    font-size: 26px;
+    border-radius: 5px;
+}
+.link_person{
+    width: 80px;
+    height: 25px;
+    background: white;
+    border-radius: 5px;
+    opacity: 0.7;
+    color: darkgreen;
+    text-align: center;
+    line-height: 150%;
+    position: absolute;
+    right: 9%;
+    top: 30px;  
+}
+
+.link_person:hover{
+    margin-top: -8px;
+}
+
+.main{
+    width: 1100px;
+    height: 980px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -550px;
+    background: url("../imgs/bg_main.jpg");
+}
+.name,.class,.num{
+    width: 160px;
+    height: 30px;
+    float: left;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+}
+.name{
+    top: 282px;
+    left: 500px;
+}
+.class{
+    width: 190px;
+    top: 205px;
+    left: 700px;
+}
+.num{
+    top: 305px;
+    left: 920px;
+}
+
+.index_{
+    width: 1000px;
+    height: 130px;
+    position: absolute;
+    top: 337px;
+    left: 50%;
+    margin-left: -500px;
+}
+.index1,.index2,.index3,.index4{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 40px;
+    cursor: pointer;
+}
+.index1{
+    background: url("../imgs/index1.png");
+    left: 0;
+    display: block;
+}
+.index2{
+    background: url("../imgs/index2.png");
+    left: 303px;
+}
+.index3{
+    background: url("../imgs/index3.png");
+    left: 606px;
+}
+.index4{
+    background: url("../imgs/index4.png");
+    right: 0;
+}
+.hover1,.hover2,.hover3,.hover4{
+    width: 90px;
+    height: 130px;
+    position: absolute;
+    top: 0px;
+    cursor: pointer;
+}
+.hover1{
+    left: 0;
+    background: url("../imgs/index11_1.jpg");
+    display: none;
+}
+.hover2{
+    left: 303px;
+    background: url("../imgs/index21_1.jpg");
+    display: none;
+}
+.hover3{
+    left: 606px;
+    background: url("../imgs/index31_1.png");
+    display: none;
+}
+.hover4{
+    right: 0px;
+    background: url("../imgs/index41_1.jpg");
+    display: none;
+}
+.index11,.index21,.index31,.index41{
+    width: 90px;
+    height: 130px;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+.index11{
+    background: url("../imgs/index11_1.jpg");
+    left: 0;
+}
+.index21{
+    background: url("../imgs/index21_1.jpg");
+    left: 303px;
+    display: none;
+}
+.index31{
+    background: url("../imgs/index31_1.png");
+    left: 606px;
+    display: none;
+}
+.index41{
+    background: url("../imgs/index41_1.jpg");
+    right: 0;
+    display: none;
+}
+
+.content{
+    width: 1000px;
+    height: 503px;
+    position: relative;
+    top: 467px;
+    left: 50%;
+    margin-left: -500px;
+}
+ul,ol{
+    list-style: none;
+}
+.chart_{
+    height: 500px;
+    background: url("../imgs/table_.jpg");
+    font-size: 20px;
+    border-right: 1px solid black;
+}
+.weeks{
+    width: 127px;
+    height: 55px;
+    position: relative;
+    top: 52px;
+    left: 125px;
+    text-align: center;   
+    line-height:60px;
+}
+.weeks2{
+    top: -278px;
+    left: 254px;
+}
+.weeks3{
+    top: -608px;
+    left: 375px;
+}
+.weeks4{
+    top: -938px;
+    left: 499px;
+}
+.weeks5{
+    top: -1267px;
+    left: 625px;
+}
+
+.grade_{
+    background: url("../imgs/report.jpg");
+    display: none;
+}
+.year{
+    width: 220px;
+    height: 50px;
+    position: absolute;
+    top: 152px;
+    left: 250px;
+    font-size: 40px;
+}
+.semester{
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    top: 150px;
+    left: 597px;
+    font-size: 40px;
+}
+.grades{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    top: 255px;
+    font-size: 22px;
+    line-height: 40px;
+}
+.names{
+    left: 205px;
+}
+.classnum{
+    left: 505px;
+}
+.nums{
+    left: 800px;
+}
+.course{
+    width: 775px;
+    height: 50px;
+    position: absolute;
+    top: 348px;
+    left: 157px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+.course_{
+    width: 96px;
+    height: 50px;
+    float: left;
+}
+.scores{
+    top: 399px;
+}
+.scores_{
+    top: 359px;
+}
+.rank{
+    top: 408px;
+}
+
+.history_{
+    background: url("../imgs/history.jpg");
+    border: 1px solid black;
+    display: none;
+}
+
+#navigation, #navigation li ul { 
+	width: 50px;
+	height: 20px;
+	list-style-type:none; 
+} 
+#navigation { 
+	position: absolute;
+	top: 30px;
+	right: 90px;
+	z-index: 10;
+} 
+#navigation li { 
+	float:left; 
+	text-align:center; 
+	position:relative; 
+} 
+#navigation li a:link, #navigation li a:visited { 
+	height: 20px;
+	display:block; 
+	text-decoration:none; 
+	color:#000; 
+	width:120px; 
+	height:40px; 
+	line-height:40px; 
+	border:1px solid #fff; 
+	border-width:1px 1px 0 0; 
+	background:#c5dbf2; 
+	padding-left:10px; 
+} 
+#navigation li a:hover { 
+	color:#fff; 
+	background:#2687eb; 
+} 
+#navigation li ul li a:hover { 
+	color:#fff; 
+	background:#6b839c; 
+} 
+#navigation li ul { 
+	display:none; 
+	position:absolute; 
+	top:40px; 
+	left:0; 
+	margin-top:1px; 
+	width:120px; 
+} 
+#navigation li ul li ul { 
+	display:none; 
+	position:absolute; 
+	top:0px; 
+	left:130px; 
+	margin-top:0; 
+	margin-left:1px; 
+	width:120px; 
+}
+.graph{
+	width: 140px;
+	height: 20px;
+	position: absolute;
+	top: 45px;
+	right: 145px;
+	line-height: 20px;
+	text-align: center;
+}
+.box{
+	width: 949px;
+	height: 305px;
+	position: absolute;
+	top: 145px;
+	left: 50%;
+	margin-left: -475px;
+	z-index: 1;
+}
+.gra{
+	width: 73px;
+	height: 50px;
+	float: left;
+	text-align:center;
+	line-height: 50px;
+	font-size: 19px;
+}
+.cs{
+	float: left;
+}
+.c{
+	width: 72px;
+	height: 51px;
+	clear: both;
+	text-align:center;
+	line-height: 52px;
+	font-size: 20px;
+}
+.ss{
+	float: left;
+}
+.score{
+	width: 73px;
+	height: 52px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	clear: both;
+	font-size: 20px;
+}
+
+.message_{
+    background: url("../imgs/message.jpg");
+    display: none;
+}
+.message_ a{
+	text-decoration: none;
+	color: #000;
+}
+.mess1 a:HOVER,.mess2 a:HOVER,.mess3 a:HOVER,.mess4 a:HOVER{
+	font-size: 28px;
+}
+.msg1{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 10px;
+    background: url(../imgs/21.png);
+}
+.msg{
+    background: url(../imgs/22.png);
+}
+.mess_{
+    width: 750px;
+    height: 40px;
+    font-size: 25px;
+    position: absolute;
+    left: 60px;
+    line-height: 40px;
+    cursor: pointer;
+}
+.mess1{
+    top: 50px;
+}
+.mess2{
+    top: 110px;
+}
+.mess3{
+    top: 170px;
+}
+.mess4{
+    top: 230px;
+}
+.footer{
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    top: 1080px;
+    background: #f3f5f7;
+}
+.back{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	right: 1%;
+	margin-top: -25px;
+	border-radius: 25px;
+}
+.f1{
+	width: 136px;
+	position: absolute;
+	top: 35px;
+	left: 50%;
+	margin-left: -68px;
+	cursor: pointer;
+}
+.f1 a:HOVER{
+	color: red;
+}
+.f2{
+	width: 240px;
+	position: absolute;
+	top: 65px;
+	left: 50%;
+	margin-left: -120px;
+}
